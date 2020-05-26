@@ -12,10 +12,10 @@ class Gpio:
     self.name = name
     self.position = position
 
-  def turnOn(self):
+  def on(self):
     # GPIO.output(self.position,GPIO.LOW)
     print("Turned on the", self.name)
 
-  def turnOff(self):
+  def off(self):
     # GPIO.output(self.position,GPIO.HIGH)
     print("Turned off the", self.name)

@@ -8,4 +8,5 @@ from components.Gpio import Gpio
 
 lights = Gpio(16,'lights')
 
-lights.turnOff()
+lights.on()
+lights.off()
