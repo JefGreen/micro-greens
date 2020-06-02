@@ -1,8 +1,8 @@
-# import RPi.GPIO as GPIO
-# import time
+import RPi.GPIO as GPIO
+import time
 
-# GPIO.setwarnings(False)
-# GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BOARD)
 
 class Gpio:
   'Common base class for all GPIOS'
